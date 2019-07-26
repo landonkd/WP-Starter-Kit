@@ -20,7 +20,7 @@ Remove unwanted items from the WordPress left-hand dashboard menu.
 
 Example: "Comments"
 
-`adminimizer.php`
+[https://github.com/landonkd/adminimizer](https://github.com/landonkd/adminimizer)
 
 ---
 
