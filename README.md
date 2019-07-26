@@ -24,4 +24,4 @@ Example: "Comments"
 
 ---
 
-A great WordPress Blog - [Bill Erickson](https://www.billerickson.net/core-functionality-plugin/)
+*Cite* - [https://www.billerickson.net/core-functionality-plugin/](https://www.billerickson.net/core-functionality-plugin/)
