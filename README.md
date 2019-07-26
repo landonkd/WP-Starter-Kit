@@ -17,16 +17,10 @@ That which relates to the look and feel of the site - contains several commonly 
 
 ---
 
-## Adminimizer
-Remove unwanted items from the WordPress left-hand dashboard menu such as "Comments".
-
-[https://github.com/landonkd/adminimizer](https://github.com/landonkd/adminimizer)
-
----
-
 ## Other Resources
 
 ### Plugins
+- [Adminimizer](https://github.com/landonkd/adminimizer)
 - [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
 - [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
