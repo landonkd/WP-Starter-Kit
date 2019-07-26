@@ -1,4 +1,4 @@
-# WP Starter
+# WP Starter Kit
 The files included are a starting point for your next WordPress site.
 
 ## Core Functionality
