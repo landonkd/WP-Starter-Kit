@@ -18,4 +18,9 @@ That which relates to the look and feel of the site - contains several commonly 
 ## Adminimizer
 Remove unwanted items from the WordPress left-hand dashboard menu.
 
+Example: "Comments"
+
 `adminimizer.php`
+
+*A great WordPress Blog*
+[Bill Erickson](https://www.billerickson.net/core-functionality-plugin/)
