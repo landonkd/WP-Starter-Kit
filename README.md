@@ -24,4 +24,7 @@ Example: "Comments"
 
 ---
 
-*Cite* - [https://www.billerickson.net/core-functionality-plugin/](https://www.billerickson.net/core-functionality-plugin/)
+*Cite:*
+- [https://www.billerickson.net/core-functionality-plugin/](https://www.billerickson.net/core-functionality-plugin/)
+- [https://www.billerickson.net/building-a-gutenberg-website/](https://www.billerickson.net/building-a-gutenberg-website/)
+- [https://github.com/billerickson/EA-Starter](https://github.com/billerickson/EA-Starter)
