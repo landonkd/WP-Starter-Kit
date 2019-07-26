@@ -6,3 +6,6 @@ Contains all of your WordPress site's core functionality so that it is **theme i
 
 ## theme-functionality.php
 Contains several commonly used functions to use as a reference for building your theme's functions.php file.
+
+## adminimizer.php
+Remove unwanted items from the WordPress left-hand dashboard menu.
