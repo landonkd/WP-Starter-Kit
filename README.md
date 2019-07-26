@@ -23,6 +23,7 @@ That which relates to the look and feel of the site - contains several commonly 
 - [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/)
 - [Super Progressive Web Apps](https://wordpress.org/plugins/super-progressive-web-apps/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
+- [WP Mail SMPTP](https://wordpress.org/plugins/wp-mail-smtp/)
 - [WordPress Infinite Scroll](https://wordpress.org/plugins/ajax-load-more/)
 - [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
 - [Disable Gutenberg Blocks - Block Manager](https://wordpress.org/plugins/disable-gutenberg-blocks/)
