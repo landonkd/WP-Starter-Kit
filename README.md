@@ -22,7 +22,7 @@ That which relates to the look and feel of the site - contains several commonly 
 - [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
 - [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
-- [Disable Gutenberg Blocks - Block Manager)[https://wordpress.org/plugins/disable-gutenberg-blocks/]
+- [Disable Gutenberg Blocks - Block Manager](https://wordpress.org/plugins/disable-gutenberg-blocks/)
 - [ShortPixel Image Optimizer](https://wordpress.org/plugins/shortpixel-image-optimiser/)
 - [Image optimization & Lazy Load by Optimole](https://wordpress.org/plugins/optimole-wp/)
 
