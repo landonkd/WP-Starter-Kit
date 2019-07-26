@@ -22,6 +22,7 @@ Example: "Comments"
 
 [https://github.com/landonkd/adminimizer](https://github.com/landonkd/adminimizer)
 
+---
 
 ### Other Resources
 
