@@ -15,8 +15,6 @@ That which relates to the look and feel of the site - contains several commonly 
 
 `theme-functionality.php`
 
----
-
 ## Other Resources
 
 ### Plugins
