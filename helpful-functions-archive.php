@@ -1,3 +1,4 @@
+<?php 
 /*
  * Register image sizes for use in "Add Media" modal in Gutenberg
  */
@@ -73,3 +74,15 @@ function ivy_list_child_pages() {
 	return $string;
 }
 add_shortcode('ivy_child_pages', 'ivy_list_child_pages');
+
+
+/** 
+ * For CPT 'Programs' to use page.php as its page template
+ */
+add_filter( 'template_include', function( $template ) {
+    return is_singular( [ 'programs' ] ) ? get_page_template() : $template;
+});
+
+
+
+?>
