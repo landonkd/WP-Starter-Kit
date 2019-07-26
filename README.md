@@ -22,5 +22,7 @@ Example: "Comments"
 
 `adminimizer.php`
 
+---
+
 *A great WordPress Blog*
 [Bill Erickson](https://www.billerickson.net/core-functionality-plugin/)
