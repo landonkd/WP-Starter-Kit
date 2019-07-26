@@ -19,7 +19,9 @@ That which relates to the look and feel of the site - contains several commonly 
 
 ### Plugins
 - [Adminimizer](https://github.com/landonkd/adminimizer)
+- [Advanced Custom Fields](https://www.advancedcustomfields.com/)
 - [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/)
+- [Super Progressive Web Apps](https://wordpress.org/plugins/super-progressive-web-apps/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
 - [WordPress Infinite Scroll](https://wordpress.org/plugins/ajax-load-more/)
 - [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
