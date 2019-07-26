@@ -56,7 +56,7 @@ if ( ! function_exists( 'theme_functionality_setup' ) ) :
 				array(
 					'name'      => __( 'Normal' ),
 					'shortName' => __( 'N' ),
-					'size'      => 18,
+					'size'      => 16,
 					'slug'      => 'normal',
 				),
 				array(
@@ -113,6 +113,19 @@ function editor_script_enqueue($hook) {
     wp_enqueue_script('theme-editor-js', get_template_directory_uri() . '/js/editor.js', array(), '', true);
 }
 add_action('admin_enqueue_scripts', 'editor_script_enqueue');
+
+
+/**
+ * Enqueue scripts and styles.
+ */
+function theme_scripts() {
+	
+	wp_enqueue_style( 'theme-style', get_template_directory_uri(). '/css/main.css' );
+	
+	wp_enqueue_script( 'theme-js', get_template_directory_uri(). '/js/theme.js', array(), false, true );
+
+}
+add_action( 'wp_enqueue_scripts', 'theme_scripts' );
 
 
 /**
