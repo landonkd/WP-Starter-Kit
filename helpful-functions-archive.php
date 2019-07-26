@@ -12,6 +12,7 @@ function campfriendship_custom_sizes( $sizes ) {
     ) );
 }
 
+
 /*--------------------------------------------------------------
 ## Use custom colors in ACF color picker
 --------------------------------------------------------------*/
@@ -83,7 +84,6 @@ add_shortcode('ivy_child_pages', 'ivy_list_child_pages');
 add_filter( 'template_include', function( $template ) {
     return is_singular( [ 'programs' ] ) ? get_page_template() : $template;
 });
-
 
 
 ?>
