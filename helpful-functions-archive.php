@@ -1,7 +1,8 @@
 <?php 
-/*
- * Register image sizes for use in "Add Media" modal in Gutenberg
- */
+
+/*--------------------------------------------------------------
+## Register image sizes for use in "Add Media" modal in Gutenberg
+--------------------------------------------------------------*/
 add_filter( 'image_size_names_choose', 'campfriendship_custom_sizes' );
 function campfriendship_custom_sizes( $sizes ) {
     return array_merge( $sizes, array(
@@ -11,9 +12,9 @@ function campfriendship_custom_sizes( $sizes ) {
     ) );
 }
 
-/*
- * Use custom colors in ACF color picker
- */
+/*--------------------------------------------------------------
+## Use custom colors in ACF color picker
+--------------------------------------------------------------*/
 function campfriendship_acf_input_admin_footer() {
 	?>
 	<script type="text/javascript">
@@ -76,9 +77,9 @@ function ivy_list_child_pages() {
 add_shortcode('ivy_child_pages', 'ivy_list_child_pages');
 
 
-/** 
- * For CPT 'Programs' to use page.php as its page template
- */
+/*--------------------------------------------------------------
+## For CPT 'Programs' to use page.php as its page template
+--------------------------------------------------------------*/
 add_filter( 'template_include', function( $template ) {
     return is_singular( [ 'programs' ] ) ? get_page_template() : $template;
 });
