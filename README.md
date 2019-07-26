@@ -21,6 +21,7 @@ That which relates to the look and feel of the site - contains several commonly 
 - [Adminimizer](https://github.com/landonkd/adminimizer)
 - [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
+- [WordPress Infinite Scroll](https://wordpress.org/plugins/ajax-load-more/)
 - [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
 - [Disable Gutenberg Blocks - Block Manager](https://wordpress.org/plugins/disable-gutenberg-blocks/)
 - [ShortPixel Image Optimizer](https://wordpress.org/plugins/shortpixel-image-optimiser/)
