@@ -2,7 +2,7 @@
 A simple starter theme to jumpstart building WordPress sites.
 Tested with WordPress 5.8
 
-## Core Functionality
+## Core Functionality Plugin
 Contains all of your WordPress site's core functionality so that it is **theme independent**.
 
 A good rule-of-thumb is that anything a user would expect to keep after changing themes belongs here. This includes custom post types, taxonomies, custom metaboxes, shortcodes, and customizations to other plugins.
