@@ -1,0 +1,72 @@
+// Colors
+$white: #fff;
+$grey: #757b88;
+$black: #000;
+
+// Brand Colors
+$brand_colors: (
+  'primary'	: #1c9483, // ivy green -- #00856e -- #1c9483
+  'secondary' : #cce29e, // honeydew -- #dbbc33 -- #cce29e
+  'tertiary' : #f05256, //salmon #f5875f -- #f05256
+  'light-primary' : #d4f7f2,
+  'light-secondary' : #ebf3d8,
+  'grey'	: #eeeeee, // light grey
+  'body-text' : #001D28, // body text
+  'white' : $white,
+  'black' : $black,
+);
+@import "modules/brand-colors";
+
+$facebook: #3B5998;
+$twitter: #00B6F1;
+$pinterest: #CB2027;
+
+$base-color: brand-color( 'body-text' );
+$highlight: brand-color( 'primary' );
+$highlight-encoded: "'%231c9483'"; // Put actual color hex between '%23 and '
+$base-color-encoded: "'%23001D28'"; // Put actual color hex between '%23 and '
+$border-color: #E5E7EB; // #D1D5DB
+$border-radius: 3px;
+
+// Fonts
+$serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+$sans-serif: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue","Fira Sans",sans-serif;
+
+// Content
+$content-width: 768px;
+$block-margin: 20px;
+
+// Grid
+$grid: grid;
+$grid-width: 1200px;
+$grid-gap: 32px;
+$base-margin: 16px; // also base padding for left/right content areas (esp. on mobile)
+$wrap_edge: $base-margin;
+$margin_2x: $base-margin * 2; // 32
+$margin_3x: $base-margin * 3; // 48
+$margin_4x: $base-margin * 4; //64
+
+// Site Header
+$logo_width: 300px;
+$menu_width: $logo_width + $grid-gap;
+$persistant_mobile: false; // 49px
+$persistent_desktop: false; // 49px
+
+
+// Include Media
+$breakpoints: (
+  'phone'  : 360px,
+  'small'  : 720px,
+  'tablet' : 768px, // required for include-media
+  'mobile_menu' : 800px,
+  'medium' : 992px,
+  'large'  : 1200px,
+  'desktop': $grid-width + $grid-gap, // required for include-media
+  'content-width': $content-width + $grid-gap,
+);
+
+
+// import
+@import "modules/helpers";
+@import "modules/base-styles";
+@import "vendor/_include-media";

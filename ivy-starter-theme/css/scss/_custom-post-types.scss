@@ -1,0 +1,14 @@
+/* Alert Banner
+--------------------------------------------- */
+.alert-banner {
+    background: brand-color( 'secondary' );
+    border-bottom: 2px solid darken(brand-color('secondary'), 10%);
+    padding-top: 12px;
+	padding-bottom: 12px;
+    text-align: center;
+    p {
+        &:last-of-type {
+            margin-bottom: 0 !important;
+        }
+    }
+}

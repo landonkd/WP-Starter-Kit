@@ -1,0 +1,212 @@
+/**
+ * Styles for custom made blocks
+ *
+ */
+
+
+/* Accordion
+--------------------------------------------- */
+.accordion-block {
+	display: block;
+	position: relative;
+	margin: $base-margin 0;
+	padding: 0;
+    
+    + .accordion-block {
+        margin-top: -($base-margin / 2) !important;
+    }
+	
+	@include media(">=tablet") {
+		margin: $base-margin 0;
+	}
+
+  	.accordion {
+		border-radius: $border-radius;
+		border: 1px solid $border-color;
+		text-align: left;
+		padding: 8px 16px;
+		padding-right: 32px;
+		font-weight: 600;
+		font-size: 1em;
+		transition: .1s;
+		cursor: pointer;
+		background: brand-color( 'grey' );
+    	color: $base-color;
+		line-height: 1.5;
+		
+		&:hover, &:focus, &.active {
+		  	border-color: brand-color( 'primary' );
+			color: brand-color( 'primary' );
+			transition: .1s;
+			svg {
+				path.fill-path {
+					fill: brand-color( 'primary' );
+				}
+			}
+		}
+		svg {
+            right: 16px;
+            height: 24px;
+            width: 24px;
+			position: absolute;
+			pointer-events: none;
+			
+			path.fill-path {
+				fill: brand-color( 'body-text' );
+			}
+		}
+		&.active {
+			svg {
+			  	transform: rotate(180deg);
+				path.fill-path {
+					fill: brand-color( 'primary' );
+				}
+			}
+			+ .panel {
+				padding: 16px;
+				max-height: 9999px;
+			}
+		}
+	}
+	.panel {
+		max-height: 0;
+		overflow: hidden;
+        background: brand-color( 'grey' );
+        border-radius: 0 0 $border-radius $border-radius;
+		
+		> *:last-child {
+      		margin-bottom: 0 !important; 
+		}
+	}
+}
+
+
+/* Cards
+--------------------------------------------- */
+h2.alignwide + .card-container.alignwide {
+    margin-top: -20px !important;
+}
+.wp-block-group, .wp-block-cover {
+	&.has-primary-background-color, &.has-body-text-background-color {
+		.card-container {
+			h3 a {
+				color: brand-color( 'white' );
+			}
+		}
+	}
+}
+.card-container {
+	display: grid;
+	grid-template-rows: auto;
+    grid-template-columns: 1fr;
+	grid-gap: 10px;
+	max-width: $grid-width;
+	margin: $block-margin auto;
+	@include media(">=tablet") {
+		grid-gap: 20px;
+	}
+	> p {
+		margin-bottom: 0 !important;
+	}
+	.card {
+		background: brand-color('white');
+		border-radius: $border-radius;
+		padding: 20px;
+		border: 1px solid $border-color;
+
+		.post-image {
+			margin-bottom: 20px;
+			margin-left: -20px;
+			margin-top: -20px;
+			width: calc(100% + 40px);
+			border-radius: $border-radius $border-radius 0 0;
+			overflow: hidden;
+			background: brand-color( 'grey' );
+			a {
+				img {
+					transition: .2s;
+				}
+				&:hover, &:focus {
+					img {
+						transform: scale(1.075);
+					}
+				}
+			}
+			img {
+				margin: 0 auto;
+				width: 100%;
+				padding: 0 !important;
+				border: none !important;
+			}
+		}
+
+		h3 {
+			font-weight: 700;
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+			font-size: 24px !important;
+			line-height: 1.2;
+			a {
+				color: brand-color( 'primary');
+				padding-right: 8px;
+				text-decoration: none;
+				position: relative;
+				&:after {
+					content: '';
+					background-image: url("data:image/svg+xml,%3Csvg width='32px' height='32px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' color=#{$highlight-encoded}%3E%3Cpath fill-rule='evenodd' d='M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z'%3E%3C/path%3E%3C/svg%3E");
+					background-size: contain;
+					background-repeat: no-repeat;
+					display: inline-block;
+					position: absolute;
+					right: -16px;
+					bottom: 4px;
+					height: 18px;
+					width: 18px;
+				}
+				&:hover, &:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+		.excerpt {
+			@include font-sizes( 16px );
+			line-height: 1.6;
+			margin-top: 8px;
+			p {
+				margin-bottom: 8px;
+				&:last-child {
+					margin-bottom: 0 !important;
+				}
+			}
+		}
+	}
+	@include media(">=tablet") {
+		grid-template-columns: 1fr 1fr;
+	}
+	@include media(">=medium") {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+		&.col-1 {
+			grid-template-columns: 1fr;
+			grid-gap: 20px;
+		}
+		&.col-2 {
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 20px;
+		}
+	}
+}
+.card-container.grey {
+	.card {
+		background: brand-color('grey');
+	}
+}
+.card-container.transparent {
+	.card {
+		background: transparent;
+		border: none;
+		.post-image {
+			border-radius: $border-radius;
+		}
+	}
+}
