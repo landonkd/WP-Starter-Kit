@@ -1,5 +1,5 @@
 # WP Starter Kit
-A simple starter theme to jumpstart building WordPress sites.
+A starter theme to eliminate the most redundant tasks and jumpstart building WordPress sites.
 Tested with WordPress 5.8
 
 ## Core Functionality Plugin
