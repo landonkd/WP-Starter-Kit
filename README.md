@@ -19,9 +19,14 @@ For specific functionality that’s reusable and/or the client might want to sel
 
 ### Useful Plugins
 - [Advanced Custom Fields](https://www.advancedcustomfields.com/)
-- [Super Progressive Web Apps](https://wordpress.org/plugins/super-progressive-web-apps/)
+- [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/)
+- [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
+- [FileBird](https://wordpress.org/plugins/filebird/)
+- [WP Optimize](https://wordpress.org/plugins/wp-optimize/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
-- [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/)
+- [Forminator](https://wordpress.org/plugins/forminator/)
+- [Email Encoder](https://wordpress.org/plugins/email-encoder-bundle/)
+- [Super Progressive Web Apps](https://wordpress.org/plugins/super-progressive-web-apps/)
 
 ---
 
