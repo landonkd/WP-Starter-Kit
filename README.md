@@ -1,5 +1,6 @@
 # WP Starter Kit
-The files included are a starting point for your next WordPress site.
+A simple starter theme to jumpstart building WordPress sites.
+Tested with WordPress 5.8
 
 ## Core Functionality
 Contains all of your WordPress site's core functionality so that it is **theme independent**.
@@ -8,27 +9,19 @@ A good rule-of-thumb is that anything a user would expect to keep after changing
 
 For specific functionality that’s reusable and/or the client might want to selectively disable, it’s best to build as its own plugin.
 
-`core-functionality.php`
+## Notes
+- /core-functionality/ goes into the plugins folder.
+- /ivy-starter-theme/ goes into the themes folder.
+- [View the theme in action and read the developer's guide](http://ivystarter.wpengine.com/).
 
-## Theme Functionality
-That which relates to the look and feel of the site - contains several commonly used functions to use as a reference for building your theme's functions.php file.
-
-`theme-functionality.php`
 
 ## Other Resources
 
-### Plugins
-- [Adminimizer](https://github.com/landonkd/adminimizer)
+### Useful Plugins
 - [Advanced Custom Fields](https://www.advancedcustomfields.com/)
-- [LiteSpeed Cache](https://wordpress.org/plugins/litespeed-cache/)
 - [Super Progressive Web Apps](https://wordpress.org/plugins/super-progressive-web-apps/)
 - [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)
 - [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/)
-- [WordPress Infinite Scroll](https://wordpress.org/plugins/ajax-load-more/)
-- [Disable Gutenberg](https://wordpress.org/plugins/disable-gutenberg/)
-- [Disable Gutenberg Blocks - Block Manager](https://wordpress.org/plugins/disable-gutenberg-blocks/)
-- [ShortPixel Image Optimizer](https://wordpress.org/plugins/shortpixel-image-optimiser/)
-- [Image optimization & Lazy Load by Optimole](https://wordpress.org/plugins/optimole-wp/)
 
 ---
 
