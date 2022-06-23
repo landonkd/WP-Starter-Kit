@@ -1,0 +1,127 @@
+{
+    "key": "group_582c7b3b17014",
+    "title": "CPT: Alert Banner",
+    "fields": [
+        {
+            "key": "field_582c7b443de19",
+            "label": "Alert Message",
+            "name": "alert_message",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_582c7b943de1a",
+            "label": "Expiration Date",
+            "name": "expiration",
+            "type": "date_picker",
+            "instructions": "Expire this alert message on this date and time.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "Ymd",
+            "first_day": 0
+        },
+        {
+            "key": "field_5f5f83e4f135f",
+            "label": "Select Hour",
+            "name": "select_hour",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": [
+                "12 AM",
+                "1 AM",
+                "2 AM",
+                "3 AM",
+                "4 AM",
+                "5 AM",
+                "6 AM",
+                "7 AM",
+                "8 AM",
+                "9 AM",
+                "10 AM",
+                "11 AM",
+                "12 PM",
+                "1 PM",
+                "2 PM",
+                "3 PM",
+                "4 PM",
+                "5 PM",
+                "6 PM",
+                "7 PM",
+                "8 PM",
+                "9 PM",
+                "10 PM",
+                "11 PM"
+            ],
+            "default_value": 0,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f5f8549f1360",
+            "label": "Select Minute",
+            "name": "select_minute",
+            "type": "range",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 60,
+            "step": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "alert_banner"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1600098453
+}

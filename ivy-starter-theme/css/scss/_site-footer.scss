@@ -1,0 +1,31 @@
+.site-footer {
+    background: brand-color('white');
+    border-top: 1px solid brand-color('light-grey');
+    color: brand-color('white');
+    margin-top: $block-margin;
+
+    a {
+        color: brand-color('secondary');
+        text-decoration: none;
+
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    .footer-container {
+        max-width: $grid-width;
+        margin: 0 auto;
+        padding: 32px $base-margin;
+
+        h2 {
+            font-weight: bold;
+            font-size: $fs-24px;
+            color: brand-color('primary');
+        }
+
+        .site-info {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "key": "group_60945e7224f31",
+    "title": "Block: Card Container",
+    "fields": [
+        {
+            "key": "field_60945cece5cdb",
+            "label": "Number of Columns",
+            "name": "columns",
+            "type": "range",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 3,
+            "min": 1,
+            "max": 3,
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_60945d5ce5cdc",
+            "label": "Select Style",
+            "name": "select_style",
+            "type": "radio",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "white: White background": "white: White background",
+                "grey": "Grey background",
+                "transparent": "Transparent background"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "white",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/card-container"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1629319020
+}

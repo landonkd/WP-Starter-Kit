@@ -1,0 +1,67 @@
+/**
+ * Styles for blocks brought in from plugins
+ *
+ */
+
+
+/* Forminator
+--------------------------------------------- */
+
+
+/* VFB Pro
+--------------------------------------------- */
+form.vfbp-form {
+    zoom: 1;
+    background: brand-color('white');
+    border-radius: 0 0 3px 3px;
+    padding: 24px 5px;
+    border: 1px solid $border-color;
+    border-top: 4px solid brand-color('tertiary');
+    .vfb-form-control {
+      height: 42px;
+      padding: 12px 12px 8px 12px;
+      font-size: $fs-16px;
+    }
+    .vfb-form-group {
+      margin-bottom: 25px;
+    }
+    .vfb-fieldType-radio, .vfb-fieldType-name {
+      margin-bottom: 15px;
+    }
+    label, label.vfb-address-label, label.vfb-name-label {
+      font-size: $fs-16px;
+    }
+    .vfb-radio label, .vfb-checkbox label {
+      line-height: 1.1;
+    }
+    .btn {
+      padding: 11px 20px 6px 20px !important;
+      font-size: $fs-16px !important;
+      &[type="submit"] {
+        font-size: $fs-20px !important;
+        background-color: brand-color('primary');
+        border-color: brand-color('primary');
+        &:hover, &:focus {
+          background-color: brand-color( 'primary', 'darken' );
+          border-color: brand-color( 'primary', 'darken' );
+          color: brand-color('white');
+        }
+      }
+      &.btn-file {
+        background-color: $border-color;
+        border-color: $border-color;
+        color: brand-color('primary');
+        &:hover, &:focus {
+          background-color: darken($border-color, 5%);
+          border-color: darken($border-color, 5%);
+          color: brand-color('primary');
+        }
+      }
+    }
+    @media (max-width: 767px) {
+      .vfb-name-block .vfb-col-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+}

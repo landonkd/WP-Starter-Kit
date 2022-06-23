@@ -1,0 +1,105 @@
+// Shade generator - https://maketintsandshades.com/
+
+// Brand Colors
+$brand_colors: (
+  'primary'	: #034539,
+  'secondary' : #00a88f,
+  'tertiary' : #ffc452,
+
+  'light-primary' : #e6eceb,
+  'light-secondary' : #e6f6f4,
+  'light-tertiary' : #fff3dc,
+
+  'grey' : #7e8288,
+  'light-grey'	: #ededee, // ALT #ededee
+
+  'heading-text' : #034539,
+  'body-text' : #464d55, // ALT #001D28
+
+  'white' : #fff,
+  'black' : #000,
+);
+@import "modules/brand-colors";
+
+$facebook: #3B5998;
+$twitter: #00B6F1;
+$pinterest: #CB2027;
+
+$base-color: brand-color( 'body-text' );
+$highlight: brand-color( 'primary' );
+$highlight-encoded: "'%231c9483'"; // Put actual color hex between '%23 and '
+$base-color-encoded: "'%23001D28'"; // Put actual color hex between '%23 and '
+$border-color: #E5E7EB; // #D1D5DB
+$border-radius: 3px;
+
+// Fonts
+$serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+$sans-serif: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue","Fira Sans",sans-serif;
+
+// Content
+$content-width: 768px;
+$block-margin: 20px;
+
+// Grid
+$grid: grid;
+$grid-width: 1200px;
+$grid-gap: 32px;
+$base-margin: 16px; // also base padding for left/right content areas (esp. on mobile)
+$wrap_edge: $base-margin;
+$margin_2x: $base-margin * 2; // 32
+$margin_3x: $base-margin * 3; // 48
+$margin_4x: $base-margin * 4; //64
+
+
+// Include Media
+$breakpoints: (
+  'phone'  : 360px,
+  'small'  : 720px,
+  'tablet' : 768px, // required for include-media
+  'mobile_menu' : 860px,
+  'medium' : 992px,
+  'large'  : 1200px,
+  'desktop': $grid-width + $grid-gap, // required for include-media
+  'content-width': $content-width + $grid-gap,
+);
+
+
+// Font-size variables for REM
+$fs-12px: 0.75rem;
+$fs-14px: 0.875rem;
+$fs-15px: 0.9375rem;
+$fs-16px: 1rem; // BASE
+$fs-17px: 1.0625rem;
+$fs-18px: 1.125rem;
+$fs-19px: 1.1875rem;
+$fs-20px: 1.25rem;
+$fs-22px: 1.375rem;
+$fs-24px: 1.5rem;
+$fs-26px: 1.625rem;
+$fs-28px: 1.75rem;
+$fs-30px: 1.875rem;
+
+$fs-32px: 2rem;
+$fs-34px: 2.125rem;
+$fs-36px: 2.25rem;
+$fs-38px: 2.375rem;
+$fs-40px: 2.5rem;
+$fs-42px: 2.625rem;
+$fs-44px: 2.75rem;
+$fs-46px: 2.875rem;
+
+$fs-48px: 3rem;
+$fs-50px: 3.125rem;
+$fs-52px: 3.25rem;
+$fs-54px: 3.375rem;
+$fs-56px: 3.5rem;
+$fs-58px: 3.625rem;
+$fs-60px: 3.75rem;
+$fs-62px: 3.875rem;
+$fs-64px: 4rem;
+
+
+// import
+@import "modules/helpers";
+@import "modules/base-styles";
+@import "vendor/_include-media";
