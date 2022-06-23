@@ -1,6 +1,6 @@
 # WP Starter Kit
 A starter theme to eliminate the most redundant tasks and jumpstart building WordPress sites.
-Tested with WordPress 5.6.
+Tested with WordPress 6.0.
 
 ## Core Functionality Plugin
 Contains all of your WordPress site's core functionality so that it is **theme independent**.
